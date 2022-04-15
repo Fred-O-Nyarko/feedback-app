@@ -24,8 +24,7 @@ const FeedbackList = () => {
             exit={{ opacity: 0 }}
             layout
           >
-            {/* @ts-ignore */}
-            <FeedbackItem key={item.id} item={item} />
+            <FeedbackItem {...item} />
           </motion.div>
         ))}
       </AnimatePresence>

@@ -1,4 +1,4 @@
-const FeedbackData = [
+const FeedbackData: Feedback[] = [
   {
     id: 1,
     rating: 10,
